@@ -2,15 +2,85 @@
 <html lang="en-US">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Coding Template</title>
-  <link rel="stylesheet" type="text/css" href="bundle.css">
+  <title>CozyCafé</title>
+  <link rel="stylesheet" type="text/css" href="/bundle.css">
 </head>
 
 <body>
-  <h1>Webpack - TypeScript - Scss</h1>
-  <h2>TypeScript Hello World</h2>  
-  <div id="content"></div>
-    
-  <script src="bundle.js"></script>
+  <section class="WelcomePage">
+    <div class="TitleText">
+     <h1> Welcome to Cozy Café.</h1>
+      <i>A bit of happiness every morning.</i>
+    </div>
+  </section>
+
+  <section class="quote">
+    <div class="quoteContainer">
+    <blockquote>When life gives you lemons, trade them for coffee</blockquote>
+    <cite>- A wise barista</cite>
+    </div>
+  </section>
+  
+  <section class="Menu">
+    <ul id="menuList">
+      <h2>Our products</h2>
+      <li>
+        <div class="menuItem">
+          <img src="/imgs/coffe1.jpg">  
+          <h3>Black Coffee</h3>
+          <p>A complex coffee with an exotic and syrupy body with hints of chocolate, vanilla and spice. Does well as a light roast and dark roast.</p>
+          <button>Order</button>
+          </div> 
+      </li>
+
+      <li>
+        <div class="menuItem">
+          <img src="/imgs/coffe2.jpg">  
+          <h3>Rassy's favorite</h3>
+          <p>A complex coffee with an exotic and syrupy body with hints of chocolate, vanilla and spice. Does well as a light roast and dark roast.</p>
+          <button>Order</button>
+        </div>
+      </li>
+
+      <li>
+        <div class="menuItem">
+          <img src="/imgs/coffee3.jpg">  
+          <h3>Espresso</h3>
+          <p>A complex coffee with an exotic and syrupy body with hints of chocolate, vanilla and spice. Does well as a light roast and dark roast.</p>
+          <button>Order</button>
+          </div>
+      </li>
+    </ul>
+  </section>
+
+
+  <section class="Order">
+    <div class="orderTitle">
+      <h2>Order List</h2>
+    </div>
+
+    <div class=OrderContainer>
+    <table id="OrderList">
+      <tr id="tableHeader">
+        <th>Amount</th>
+        <th>Product</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94kr</td>
+      </tr>   
+      <tr id="tableFooter">
+        <th colspan="2" id="TotalAmountLabel">Total amount:</th>
+        <th id="TotalPrice">12.453kr</th>
+      </tr>
+    </table>
+  </div>
+  </section>
+
+  <footer><p>Created with <3 by Dominik Hasko - 2020 </p> </footer>
+  <script src="index.js"></script>
 </body>
 </html>
+
