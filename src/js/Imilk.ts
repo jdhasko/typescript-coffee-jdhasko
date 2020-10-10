@@ -1,0 +1,4 @@
+interface Imilk
+{
+    MlMilk():number;
+}
