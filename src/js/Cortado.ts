@@ -2,6 +2,9 @@ import { coffee } from "./coffee";
 
  export class Cortado extends coffee implements Imilk
  {
+     CoffeeDrink(): string {
+        return "Cortado"
+    }
      MlMilk(): number {
          return 25;
      }
