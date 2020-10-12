@@ -6,7 +6,7 @@ export class Latte extends coffee implements Imilk
         return 120;
     }
     Price(): number {
-        return 40;
+        return 40 - this.discount;
     }
     Strength(): string{return "Weak"}
     

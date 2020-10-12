@@ -7,7 +7,7 @@ import { coffee } from "./coffee";
      }
      Price()
      {
-         return 25;
+         return 25 - this.discount;
      }
      Strength()
      {
