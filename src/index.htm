@@ -27,34 +27,34 @@
       <li>
         <div class="menuItem">
           <img src="/imgs/coffe1.jpg">  
-          <h3>Black Coffee</h3>
+          <h3 id="TitleCortado">Black Coffee</h3>
           <p>A complex coffee with an exotic and syrupy body with hints of chocolate, vanilla and spice. Does well as a light roast and dark roast.</p>
-          <button>Order</button>
+          <button id="buttonCortado">Order</button>
           </div> 
       </li>
 
       <li>
         <div class="menuItem">
           <img src="/imgs/coffe2.jpg">  
-          <h3>Rassy's favorite</h3>
+          <h3 id="TitleLatte">Rassy's favorite</h3>
           <p>A complex coffee with an exotic and syrupy body with hints of chocolate, vanilla and spice. Does well as a light roast and dark roast.</p>
-          <button>Order</button>
+          <button id="buttonLatte">Order</button>
         </div>
       </li>
 
       <li>
         <div class="menuItem">
           <img src="/imgs/coffee3.jpg">  
-          <h3>Espresso</h3>
+          <h3 id="TitleBlack">Espresso</h3>
           <p>A complex coffee with an exotic and syrupy body with hints of chocolate, vanilla and spice. Does well as a light roast and dark roast.</p>
-          <button>Order</button>
+          <button id="buttonBlack">Order</button>
           </div>
       </li>
     </ul>
   </section>
 
 
-  <section class="Order">
+  <section class="Order" id=Orders>
     <div class="orderTitle">
       <h2>Order List</h2>
     </div>
@@ -62,15 +62,11 @@
     <div class=OrderContainer>
     <table id="OrderList">
       <tr id="tableHeader">
-        <th>Amount</th>
         <th>Product</th>
+        <th>Strength</th>
         <th>Price</th>
       </tr>
-      <tr>
-        <td>Eve</td>
-        <td>Jackson</td>
-        <td>94kr</td>
-      </tr>   
+
       <tr id="tableFooter">
         <th colspan="2" id="TotalAmountLabel">Total amount:</th>
         <th id="TotalPrice">12.453kr</th>
